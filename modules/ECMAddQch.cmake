@@ -424,7 +424,7 @@ function(ecm_add_qch target_name)
 
     # find required tools
     if (NOT DOXYGEN_PATCHED_JSFILESADDED)
-        set(REQUIRED_DOXYGEN_VERSION 1.8.13)
+        set(REQUIRED_DOXYGEN_VERSION 1.8.8)
     endif()
     find_package(Doxygen ${REQUIRED_DOXYGEN_VERSION} REQUIRED)
     if (NOT DOXYGEN_FOUND AND NOT DOXYGEN_PATCHED_JSFILESADDED)
